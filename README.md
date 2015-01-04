@@ -1,5 +1,5 @@
 RedHoodie
 =========
 
-Red Wordpress theme.
+Red Wordpress theme.<br />
 Don't use the designed version, at least not now.

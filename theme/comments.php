@@ -1,4 +1,4 @@
-<div id="num_comments" class="text"> <?php comments_number('No Comments', 'One Comment', '% Comments'); ?>  </div>
+<div id="num_comments" class="text"> <?php comments_number('No Comments', 'One Comment', '% Comments'); ?>  </div></div>
 <hr  />	
 <div id="comment">
 <?php

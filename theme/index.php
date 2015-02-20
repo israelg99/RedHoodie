@@ -12,18 +12,20 @@
 			<div id="b-content" class="text">
 				<?php the_content(__('(more...)')); ?>
 			</div>
-			<div id="b-date" class="text">
+			<div id="b-footer">
+				<div id="b-date" class="text">
+					<?php
+					if ( is_page() ) { } else {
+						// If this is The Blog Page : ?> Posted on <span> <?php the_time('F jS, Y') ?> </span> <?php
+					} ?>
+				</div>
 				<?php
 				if ( is_page() ) { } else {
-					// If this is The Blog Page : ?> Posted on <span> <?php the_time('F jS, Y') ?> </span> <?php
+					// If this is The Blog Page : ?> <div id="num_comments" class="text">
+					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+					<?php comments_number('No Comments', 'One Comment', '% Comments'); ?> </a> </div> <?php
 				} ?>
 			</div>
-			<?php
-			if ( is_page() ) { } else {
-				// If this is The Blog Page : ?> <div id="num_comments" class="text">
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-				<?php comments_number('No Comments', 'One Comment', '% Comments'); ?> </a> </div> <?php
-			} ?>
 		</div>
 		
 		<?php endwhile; else: ?>

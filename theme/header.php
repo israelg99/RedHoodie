@@ -16,5 +16,5 @@
 		</div>
 		
 		<div id="menu">
-			<?php wp_list_pages('title_li=<div></div>'); ?>
+			<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 		</div>

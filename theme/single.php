@@ -1,4 +1,3 @@
-
 <?php get_header(); ?>
 
 <div id="content">
@@ -14,13 +13,14 @@
 				<?php the_content(__('(more...)')); ?>
 			</div>
 			
-			<div id="b-date" class="text">
-				<?php
-				if ( is_page() ) { } else {
-					// If this is The Blog Page : ?> Posted on <span> <?php the_time('F jS, Y') ?> </span> <?php
-				} ?>
-			</div>
-			<?php comments_template(); ?>
+			<div id="b-footer">
+				<div id="b-date" class="text">
+					<?php
+					if ( is_page() ) { } else {
+						// If this is The Blog Page : ?> Posted on <span> <?php the_time('F jS, Y') ?> </span> <?php
+					} ?>
+				</div>
+				<?php comments_template(); ?>
 		</div>
 		
 		<?php endwhile; else: ?>
@@ -30,7 +30,7 @@
 		<?php endif; ?>
 		
 		<div id="navPost" class="SmallHeadline">
-			<?php previous_post_link('&laquo; %link') ?> <?php next_post_link(' %link &raquo;') ?>
+			<?php previous_post_link('&laquo; %link') ?> &nbsp;---&nbsp; <?php next_post_link(' %link &raquo;') ?>
 		</div>
 		
 	</div>

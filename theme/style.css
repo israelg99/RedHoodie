@@ -6,11 +6,9 @@ Author: Israel Gilyadov
 Version: 1.0
 Tags: deploy, israel, gilyadov, theme, wordpress, basic, simple, blog, nice, red, menu, gamer.
 .
-Your theme can be your copyrighted work.
-Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
- 
-http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
- 
+
+All rights reserved.
+
 .
 */
 
@@ -434,7 +432,8 @@ body #wrapper #content #sidebar-content {
 	border:0px solid red;
 }
 body #wrapper #content #sidebar-content h2 {
-	line-height:80%;
+	line-height:30%;
+	padding-top:15px;
 }
 body #wrapper #content #sidebar-content ul {
 	list-style:none;
@@ -485,6 +484,12 @@ body #wrapper #footer #copyright a, body #wrapper #footer #copyright a:visited {
 }
 
 /* Text */
+.noPosts {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+}
+
 .strong-whiteglow {
     text-shadow: 0 0 1em #BBBBCC, 0 0 1em #97D2FD; 
     color: white;

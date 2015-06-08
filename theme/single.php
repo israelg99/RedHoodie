@@ -25,7 +25,7 @@
 		
 		<?php endwhile; else: ?>
 		
-		<p><?php _e('<label id="noPosts">Sorry, we couldnt find the post you are looking for.</label>'); ?></p>
+		<p><?php _e('<label class="noPosts">Sorry, we couldnt find the post you are looking for.</label>'); ?></p>
 		
 		<?php endif; ?>
 		

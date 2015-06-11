@@ -5,6 +5,7 @@
 	<title><?php bloginfo( 'name' ); ?></title>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 
 <body>

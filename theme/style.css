@@ -199,8 +199,6 @@ body #wrapper #content #blogs #blog #b-content {
 	border:0px solid red;
 }
 body #wrapper #content #blogs #blog #b-content img, body #wrapper #content #blogs #blog #b-content iframe {
-	width:auto;
-	height:auto;
 	margin:0px auto;
 	border:0px solid red;
 }

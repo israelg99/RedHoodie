@@ -2,4 +2,5 @@ RedHoodie
 =========
 
 Red Wordpress theme.<br />
-Don't use the designed version, at least not now.
+
+I use this theme for my game project blog: www.blog.brutalfighters.com

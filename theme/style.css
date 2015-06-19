@@ -198,7 +198,12 @@ body #wrapper #content #blogs #blog #b-content {
 	padding-left:15px;
 	border:0px solid red;
 }
-body #wrapper #content #blogs #blog #b-content img, body #wrapper #content #blogs #blog #b-content iframe {
+body #wrapper #content #blogs #blog #b-content img {
+	margin:0px auto;
+	border:0px solid red;
+}
+body #wrapper #content #blogs #blog #b-content video, body #wrapper #content #blogs #blog #b-content iframe, body #wrapper #content #blogs #blog #b-content .wp-video {
+	width:100%;
 	margin:0px auto;
 	border:0px solid red;
 }
